@@ -81,29 +81,5 @@ class EjercicioTest extends TestCase
   }
 
 
-/*
-    public function testCadenaYes()
-    {
-      //Arrange
-      $Prueba = new PruebaController();
-      //Act
-      $resultado = $Prueba->isValid("abc",false);
-      //Assert
-
-      $response = $this->json('GET', 'ejercicio1/abc');
-
-      $response
-            ->assertStatus(200)
-            ->assertExactJson([
-                'respuesta' => "YES",
-            ]);
-
-    }
-*/
-
-
-
-
-
 
 }
